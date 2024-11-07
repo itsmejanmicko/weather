@@ -19,7 +19,6 @@ fetch(WEATHER_API, {
 })
 .then(res => res.json())
 .then(data => {
-    console.log(data);
     city.textContent = data.address;
     
 
